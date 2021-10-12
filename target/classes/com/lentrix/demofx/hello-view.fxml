@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="275.0" prefWidth="324.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lentrix.demofx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <JFXTextField labelFloat="true" promptText="User Name">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </JFXTextField>
+   <JFXPasswordField labelFloat="true" promptText="Password">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </JFXPasswordField>
+   <JFXButton buttonType="RAISED" onAction="#onHelloButtonClick" prefHeight="48.0" prefWidth="151.0" style="-fx-background-color: #551122;" text="Click Me" textFill="#a3fdff" />
+</VBox>

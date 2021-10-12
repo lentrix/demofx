@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lentrix.demofx.PseudoAppController">
+   <children>
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="614.0" style="-fx-background-color: black; -fx-text-fill: yellow;" text="Main Menu" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" onAction="#onCreateUser" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="Create User">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="220.0" onAction="#onEditUser" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="Edit User">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="239.0" onAction="#onViewProfile" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="My Profile">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="257.0" onAction="#onViewOtherProfile" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="Other Profile">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="276.0" onAction="#onDeleteUser" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="Delete User">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="187.0" layoutY="276.0" onAction="#onLogout" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: rgb(77,102,204); -fx-text-fill: white;" text="Logout">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </JFXButton>
+   </children>
+</VBox>
